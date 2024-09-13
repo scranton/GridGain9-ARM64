@@ -1,5 +1,7 @@
 # Building GridGain 9 ARM64 docker image and Running Getting Started
 
+Based on https://github.com/ianruffell/gg9-docker-arm
+
 Assumptions
 
 - Building against GridGain 9.0.5
