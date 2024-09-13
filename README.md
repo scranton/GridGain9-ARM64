@@ -46,7 +46,7 @@ You'll then see the CLI Interactive Mode prompt similar to this `[node1]>`
 You only need to do this once
 
 ```shell
-cluster init --name=sampleCluster --metastorage-group=defaultNode --config-files=license.conf
+cluster init --name=sampleCluster --metastorage-group=node1 --config-files=gridgain-license.conf
 ```
 
 ### Create an example table using SQL
