@@ -20,7 +20,7 @@ ENV LIBS_DIR=$GRIDGAIN_HOME/lib
 ENV GRIDGAIN_WORK_DIR=$GRIDGAIN_HOME/work
 ENV GRIDGAIN_CONFIG_PATH=$GRIDGAIN_HOME/etc/gridgain-config.conf
 
-COPY gridgain9-db-9.0.6 $GRIDGAIN_HOME
+COPY gridgain9-db-9.0.7 $GRIDGAIN_HOME
 
 EXPOSE 3344 10300 10800
 
@@ -30,6 +30,6 @@ ENV PATH="/usr/local/bin:${PATH}"
 
 # Copy CLI app
 ENV GRIDGAIN_CLI_HOME=/opt/gridgain9-cli
-COPY gridgain9-cli-9.0.6 $GRIDGAIN_CLI_HOME
+COPY gridgain9-cli-9.0.7 $GRIDGAIN_CLI_HOME
 
 ENTRYPOINT ["docker-entrypoint.sh"]
