@@ -19,7 +19,7 @@ name: gridgain9
 
 x-gridgain-def:
   &gridgain-def
-  image: gridgain/gridgain9:9.0.5-arm64
+  image: gridgain/gridgain9:9.0.6-arm64
   volumes:
     - ./cluster.conf:/opt/gridgain/etc/gridgain-config.conf
 
